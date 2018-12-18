@@ -7,6 +7,17 @@
     <groupId>com.ectr.parent</groupId>
     <artifactId>ectr-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.ectr</groupId>
+            <artifactId>commander</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>commander</module>
+    </modules>
 
 </project>
