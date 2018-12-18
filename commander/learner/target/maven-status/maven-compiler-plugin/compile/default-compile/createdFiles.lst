@@ -1,0 +1,5 @@
+com/ectr/learner/mf/MatrixFacoriztion.class
+com/ectr/learner/EctrDataTransfer.class
+com/ectr/learner/fm/FmLearner.class
+com/ectr/learner/EctrPredictor.class
+com/ectr/learner/EctrLearner.class
