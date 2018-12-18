@@ -1,5 +1,7 @@
 package com.ectr.commander.function;
 
+import com.ectr.learner.EctrDataTransfer;
+
 public class JobRunner {
 
     public void runEctrLearning() {
@@ -16,8 +18,8 @@ public class JobRunner {
     }
 
     private String readKafka() {
-//        EctrDataTransfer ectrDataTransfer = new EctrDataTransfer();
-//        ectrDataTransfer.loadData();
+        EctrDataTransfer ectrDataTransfer = new EctrDataTransfer();
+        ectrDataTransfer.loadData();
         return "this is log";
     }
 }
